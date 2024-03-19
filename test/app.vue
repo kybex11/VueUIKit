@@ -5,6 +5,8 @@
       <FilledButton/>
       <br>
       <TintedButton/>
+      <br>
+      <GrayButton/>
     </div>
   </div>
 </template>
