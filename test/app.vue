@@ -1,9 +1,5 @@
 <template>
-  <div>
-    
-  </div>
+  <FilledButton/>
+  <br>
+  <TintedButton/>
 </template>
-
-<script>
-  
-</script>
