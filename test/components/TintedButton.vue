@@ -4,7 +4,7 @@
   
   <script>
   import { onMounted, ref } from 'vue';
-  import { tintedButton } from '../../UIKit/index';
+  import { tintedButton } from 'iosvueuikit/dist/index.js';
   
   export default {
     setup() {

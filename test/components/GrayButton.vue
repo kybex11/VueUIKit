@@ -4,7 +4,7 @@
   
   <script>
   import { onMounted, ref } from 'vue';
-  import { grayButton } from '../../UIKit/index';
+  import { grayButton } from 'iosvueuikit/dist/index.js';
   
   export default {
     setup() {

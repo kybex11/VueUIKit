@@ -4,7 +4,7 @@
   
   <script>
   import { onMounted, ref } from 'vue';
-  import { filledButton } from '../../UIKit/index';
+  import { filledButton } from 'iosvueuikit/dist/index.js';
   
   export default {
     setup() {
