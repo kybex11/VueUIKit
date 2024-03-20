@@ -13,7 +13,7 @@ npm i iosvueuikit
 ```
 And
 ```
-import { filledButton } from 'iosvueuikit';
+import { filledButton } from 'iosvueuikit/dist/index.js';
 
 const element = filledButton();
 document.body.appendChild(element)
@@ -26,7 +26,7 @@ document.body.appendChild(element)
 </template>
 
 <script>
-import { filledButton } from 'iosvueuikit';
+import { filledButton } from 'iosvueuikit/dist/index.js';
 
 const vueElement = this.$refs.buttonExampleContainer;
 
