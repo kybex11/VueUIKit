@@ -1,4 +1,4 @@
-export default function filledButton(text, action, customClass) {
+export default function filledButton(text: string, action: () => void, customClass: string) {
     const btn = document.createElement('button');
     btn.innerText = text;
     btn.style.color = "#fff";

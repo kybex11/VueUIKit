@@ -1,0 +1,16 @@
+{
+  "name": "iosvueuikit",
+  "version": "1.0.0",
+  "description": "A Vue Extension for make a IOS Styled WebSite",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["Vue"],
+  "author": "OpenStation <varnetcoding@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  }
+}

@@ -1,4 +1,4 @@
-export default function tintedButton(text, action, customClass) {
+export default function tintedButton(text: string, action: () => void, customClass: string) {
     const btn = document.createElement('button');
     btn.innerText = text;
     btn.style.color = "#0285FF";
