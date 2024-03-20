@@ -8,6 +8,11 @@
       <br>
       <GrayButton/>
     </div>
+    <br>
+    <h1>Inputs</h1>
+    <div class="buttons-container">
+      <Input/>
+    </div>
   </div>
 </template>
 

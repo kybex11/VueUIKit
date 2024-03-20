@@ -1,6 +1,6 @@
 {
   "name": "iosvueuikit",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "A Vue Extension for make a IOS Styled WebSite",
   "main": "index.js",
   "scripts": {

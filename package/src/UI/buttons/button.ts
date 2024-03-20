@@ -1,15 +1,15 @@
-export default function filledButton(text: string, action: () => void, customClass: string) {
+export default function button(text: string, action: () => void, customClass: string) {
     const btn = document.createElement('button');
     btn.innerText = text;
-    btn.style.color = "#fff";
-    btn.style.backgroundColor = "#0285ff";
+    btn.style.color = "#0380F5";
+    btn.style.background = "none";
     btn.style.border = "none";
     btn.style.cursor = "pointer";
     btn.style.fontSize = "1.5rem";
     btn.style.padding = "20px 30px";
     btn.style.borderRadius = "15px";
     btn.onclick = () => {
-        action();
+        action;
     }
     if (customClass) {
         btn.classList.add(customClass);

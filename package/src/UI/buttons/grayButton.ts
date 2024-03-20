@@ -9,7 +9,7 @@ export default function grayButton(text: string, action: () => void, customClass
     btn.style.padding = "20px 30px";
     btn.style.borderRadius = "15px";
     btn.onclick = () => {
-        action;
+        action();
     }
     if (customClass) {
         btn.classList.add(customClass);

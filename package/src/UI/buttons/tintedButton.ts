@@ -9,7 +9,7 @@ export default function tintedButton(text: string, action: () => void, customCla
     btn.style.padding = "20px 30px";
     btn.style.borderRadius = "15px";
     btn.onclick = () => {
-        action;
+        action();
     }
     if (customClass) {
         btn.classList.add(customClass);
