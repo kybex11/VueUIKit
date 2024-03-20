@@ -9,7 +9,11 @@ ex: filledButton('Text', 'Action', 'Custom Class Name')
 
 # Usage
 ```
-import { filledButton } from 'VueUIKit';
+npm i iosvueuikit
+```
+And
+```
+import { filledButton } from 'iosvueuikit';
 
 const element = filledButton();
 document.body.appendChild(element)
@@ -22,7 +26,7 @@ document.body.appendChild(element)
 </template>
 
 <script>
-import { filledButton } from 'VueUIKit';
+import { filledButton } from 'iosvueuikit';
 
 const vueElement = this.$refs.buttonExampleContainer;
 
